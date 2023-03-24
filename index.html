@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> car part prediction with single image </title>
+    <title> Web Application for car part prediction and damage estimation with single image </title>
     <link rel="icon" type="image/png" href="./ai/pj.png">
     <link rel="stylesheet" href="./ai/font-awesome.min.css">
     <link rel="stylesheet" href="./ai/codemirror.min.css">
@@ -16,10 +16,12 @@
     <div class="container" id="main">
         <div class="row">
             <h1 class="col-md-12 text-center">
-                car part prediction with single image <br>
+               <b> Web Application for car part prediction <br>
+                and damage estimation with single image </b> <br>
+                
                 <img src="./ai/pj.png" height="120px"><br>
             </h1>
-            
+            <br>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
@@ -52,7 +54,7 @@
                     </li>
                     <li>
                         <a href="https://youtu.be/2fJLpExOQtM&amp;feature=youtu.be"> 
-                            <img src="./ai/youtube_icon_dark.png" height="120px"><br>
+                            <img src="./ai/youtube.png" height="120px"><br>
                             <h4><strong>Presentation Video</strong></h4>
                         </a>
                     </li>
@@ -99,53 +101,44 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h3>Example Results: WebApp(Prototype)</h3>
+                <font color=“#3366FF”> <h3> <b>Example Webapp </b>
+                </h3></font>
                 <hr>
                 <video id="v0" width="100%" autoplay="" loop="" muted="" controls=""> 
-                    <source src="./ai/WebApp_Prototype.mp4" type="video/mp4">
+                    <source src="./ai/vdowebapp.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h3>Abstract</h3>
                 <hr>
                 <br> 
-                <img src="./ai/storyboard_new.png" class="img-responsive" alt="overview"><br>
-                <br> 
+                <h3> <b>Story Board </b></h3>
+                <img src="./ai/storyboard.png" class="img-responsive" alt="overview"><br>
+                <h3> <b> Process </b></h3>
+                <img src="./ai/process.png" class="img-responsive" alt="overview">
+            
+                <h3><b>Abstract</b></h3>
+            
                 <p class="text-justify">
-                       Law are regulations for controlling people so that they behave in the same way,and there would be the peace in countries. 
-                    When everyone knew his rights, duties, and limits, he could do along the laws, there wouldn’t be the encroachment or the infraction against others’ rights.
-                    At present, a large number of people in Thailand do not know the laws or understand the process of judgement.
-                    When they had problems, they always asked for advices from Q&A board about laws on the internet and searched advices through Google or Search Engine instead of consulting lawyers directly.
-                    When users asked many legislative problems on Q&A web board, these problems are not categorized. 
-                    So respondents will have difficult time answering the questions. Moreover, It will be hard for the people who want to study about other Q&A to find the topic they interested in. 
+                     Nowadays, car accidents are increasing every day. As a result, the police have to be more stringent about safety measures than before, including collecting forensic evidence which is crucial in investigating car accidents. One such method is photography. Similarly, insurance companies also use photography to detect damage to car parts and analyze 
+the extent of damage, enabling them to evaluate the overall damage to the car. 
+However, this process involves several steps, leading to delays that can cause problems for insurance companies.
+ 
                     <br> 
-                    &emsp;&emsp;We found that there were not any data set about Thai laws in the form of questions and answers which can be used in the development Machine Learning Model. 
-                    The only current dataset about Thai laws is the laws in Act of Parliament, which developed by PyThaiNLP team.
-                    Hence, we would like to develop a data set in the form of questions and answers for language processing of Thai laws and developed the model for categorizing questions from webboards as the category of laws.     
+                    &emsp;&emsp;Developers aim to create a "Web Application for car part prediction and damage estimation with single image" to reduce the number of images, time, and steps required to obtain car insurance using AI. The application is trained using car model photography and tested with real car images. First, the car model photographs are input into AI, which learns about car parts and damage. The output is an estimation of the car parts and damage.     
                     <br>    
-                    &emsp;&emsp;We collected questions and answers from webboards which reliably answered legislative problems from 6 websites on the internet. 
-                    We segment Thai words with Algorithm Conditional Random Fields, API servicing from the platform AI for Thai.
-                    Finally, we use Classes Label categorizing laws along questions found in web boards and propagated Legal Thai Dataset. We then develop classification model with the developed dataset.
-                    The Input of the model is texts or questions about laws, and the output is the probability of any questions were categorized in any categories of laws. Our model, LegalBERT – th accuracy is 94%.
-                    <br>    
-                    &emsp;&emsp;The main benefit from this development is the dataset of questions and answers for language processing of Thai laws (Dataset).
-                    They would be taken to develop continually for increasing the quantities of dataset so that the model would be more accurate. 
-                    It could reduce tasks of webboards and helped to categorize legislative questions orderly.
-                    People could search interesting questions more easily. It could help respondents to answer questions more quickly. 
-                    Besides, the developer API could categorize Thai laws and the results were showed in the category names.   
-
-
-                
+                    &emsp;&emsp;In conclusion, developing the " Web Application for car part prediction and damage estimation with single image" can provide significant benefits to insurance companies by reducing the time and steps required to obtain car insurance. The application streamlines 
+                    the analysis of car parts and damage, making the process faster and more efficient than before.
+                      
                 </p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h3>Project poster</h3>
+                <h3><b>Project poster</b></h3>
                 <hr>
                 <div class="text-center">
                     <div style="position: relative">
@@ -154,55 +147,10 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>รางวัลดาวรุ่งวิทยาศาสตร์รุ่นเยาว์ ประจำปีการศึกษา 2564 YRSS 2021 (YOUNG RISING STARS OF SCIENCE AWARD 2021)</h3>
-                <hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <ul class="nav nav-pills nav-justified">
-                    <li>
-                        <a href="https://youtu.be/Q5_Vgi7oNNY&amp;feature=youtu.be">   
-                            <img src="./ai/youtube_icon_dark.png" height="200px"><br>
-                            <h4><strong>Presentation Video</strong></h4>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h4>รางวัลเหรียญเงินในสาขาวิทยาการคอมพิวเตอร์</h4>
-                 <hr>
-                <div class="text-center">
-                     <div style="position: relative">
-                        <img src="./ai/Kannika_YRSS2021.png" height="800px"><br>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>  
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <br>
-                The website template was borrowed from
-                <a href="http://mgharbi.com/">Michaël Gharbi</a>.
-                <p></p>
-            </div>
+  <br>  <br>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+  <h3>The website template was borrowed from Michaël Gharbi.</h3>
         </div>
     </div>
-
-
 </body></html>
