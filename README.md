@@ -1,6 +1,6 @@
-# Web page car-part-prediction-with-single-image :
+# Web page Car-Part-Prediction-with-Single-Image :
 
-Development of Image dataset and Web Application for car prediction and damage estimation with single image.
+Development of Image dataset and Web Application for Car Prediction and Damage Estimation with Single Image.
 
 <p align="center">
 <img src="https://github.com/Umaporn19/webapp/blob/main/pj.png" width="150" height="150" ></p>
